@@ -18,6 +18,7 @@ class _SignInScreenSate extends State<SignInScreen> {
   TextEditingController _emailTextController = TextEditingController();
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(gradient: LinearGradient(colors: [

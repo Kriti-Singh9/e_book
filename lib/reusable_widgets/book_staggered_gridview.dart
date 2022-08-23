@@ -29,7 +29,7 @@ class BookStaggeredGridView extends StatelessWidget {
               GridView.builder(
                 itemCount: bookList.length,
                   gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-                  itemBuilder:  (_,index) => BookItem(bookList[index.todouble()]),
+                  itemBuilder:  (_,index) => BookItem(bookList[index.toInt()]),
 
               shrinkWrap: true,
               physics: const ScrollPhysics(),

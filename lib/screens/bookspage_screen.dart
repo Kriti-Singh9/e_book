@@ -34,11 +34,11 @@ class _BooksPageState extends State<BooksPage> {
                   MaterialPageRoute(builder: (context) => SignInScreen()));
             });
           },
-          icon: const Icon(Icons.menu_rounded),
+          icon: const Icon(Icons.arrow_back_outlined),
         ),
         title: Center(
           child: const Text(
-            "All Books",
+            "Hola Reader!!!",
             style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
@@ -84,8 +84,8 @@ class _BooksPageState extends State<BooksPage> {
   Widget _buildbottomNavigationBar() {
     final  bottoms = [
       Icons.home_outlined,
-      Icons.analytics_outlined,
-      Icons.keyboard_voice_outlined,
+     // Icons.analytics_outlined,
+     // Icons.keyboard_voice_outlined,
       Icons.bookmark_border_outlined,
       Icons.person_outline,
     ];
@@ -100,7 +100,7 @@ class _BooksPageState extends State<BooksPage> {
               bottomIndex = index;
     }),
             child: Container(
-              width: (width-40)/5,
+              width: (width-40)/3,
               padding: const EdgeInsets.symmetric(vertical: 10),
               decoration:bottomIndex == index ?
               const BoxDecoration(
