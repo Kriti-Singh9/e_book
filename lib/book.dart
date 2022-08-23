@@ -99,7 +99,7 @@ class Book {
         220,
       ),
       Book(
-        'hostory',
+        'history',
         'This Is The Way-Walk Ye In It',
         'David E Navarro',
         DateTime(2017,11,23),

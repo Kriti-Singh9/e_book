@@ -60,11 +60,11 @@ import '../../book.dart';
                  ),
                  child: Row(
                    children: const [
-                     Icon(Icons.play_arrow_outlined,
+                     Icon(Icons.arrow_downward_outlined,
                      color: Colors.white,
                      size: 25,
      ),
-                     Text('Audio Book',
+                     Text('Download',
                      style: TextStyle(
                        color: Colors.white,
 
